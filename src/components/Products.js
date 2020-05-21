@@ -56,7 +56,7 @@ class Products extends Component {
           </ul>
         </div>
         <div className = "row">
-          <Route path = "/products/:name" component = {Product} />
+          <Route path = "/products/:slug" component = {Product} />
         </div>
       </div>
     );
