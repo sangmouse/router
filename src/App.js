@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-router-dom'
+import { BrowserRouter as Router,Switch, Route, Link, useParams } from 'react-router-dom'
 import './App.css';
 import Menu from './components/Menu';
 import routes from './routes'
 
+
+// const  Child = () => {
+//     const {id} = useParams()
+//         return (
+//             <p>Id : {id}</p>
+//         )
+// }
 
 class App extends Component {
 
@@ -17,12 +24,8 @@ class App extends Component {
                 )
             })
         }
-
-
-
         return result
     }
-   
 
     render() {
         return (

@@ -17,7 +17,12 @@ const menus = [
         name: 'About',
         to: '/about',
         exact: false
-    }
+    },
+    {
+        name: 'Products',
+        to: '/products',
+        exact: false
+    },
 ]
 
 const MenuLink = ({ label, to, activeOnlyWhenExact }) => {
